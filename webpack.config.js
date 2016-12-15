@@ -33,6 +33,6 @@ module.exports = {
       template: path.join(__dirname, 'index.html'),
       inject: 'body'
     }),
-    new OpenBrowserPlugin({ url: 'http://localhost:8080/dist/index.html' })
+    // new OpenBrowserPlugin({ url: 'http://localhost:8080/dist/index.html' })
   ]
 }
