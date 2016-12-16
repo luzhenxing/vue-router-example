@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>嵌套路由</title>
+</head>
+<body>
+  <div id="app">
+    <p>
+      <router-link to="/user/foo">/user/foo</router-link>
+      <router-link to="/user/foo/profile">/user/foo/profile</router-link>
+      <router-link to="/user/foo/posts">/user/foo/posts</router-link>
+    </p>
+    <router-view></router-view>
+  </div>
+</body>
+</html>
